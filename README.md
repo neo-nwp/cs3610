@@ -19,15 +19,26 @@ python3 main.py
 -------------OUTPUT-----------------
 
 === Apple Juice ===
+
 peelFruit: peeling the apple
+
 addToGrinder: cutting apple into pieces, then adding to grinder
+
 addCondiments: adding milk and sugar
+
 grind: grinding the mixture
+
 pour: pouring into a cup
 
 === Orange Juice ===
+
 peelFruit: peeling the orange
+
 addToGrinder: dividing orange into slices, then adding to grinder
+
 addCondiments: adding milk and sugar
+
 grind: grinding the mixture
+
 pour: pouring into a cup
+
