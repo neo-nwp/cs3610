@@ -1,0 +1,22 @@
+Select the MOST suitable pattern for the task:
+
+Explain why this pattern is the best choice for this task (refer to pattern's intent, applicability, problem statement features, etc.) - 10 points
+Design class diagram for your task -20 points
+Implement solution: develop the pattern you selected based on the designed class diagram. -40 points
+!!! Note:
+
+If the WRONG design pattern is selected, you will only get 50% of the points for tasks (2 - 3), and task 1 will be assessed as 0 points.
+
+Question 21 (70 points) 
+Let's simulate the process of of making apple and orange juices.
+
+First of all, let us factor out common steps in juice making.
+Peeling – Peel orange or apple
+addToGrinder – Add the peeled fruit to grinder
+addCondiments- add milk, sugar
+grind- grind the mixture
+Pour- pour it in a cup
+However, peelFruit() method will be implemented differently, as well as addToGrinder (before to put into the grinder we need to cut the apple, but the orange should be divided into slices).
+
+The client code (the grinder) simply calls the object's makeJuiceFromMe() method to perform the process. The client code knows nothing about the specific class of the object it's working with.
+
