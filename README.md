@@ -17,6 +17,7 @@ How to run:
 python3 main.py
 
 -------------OUTPUT-----------------
+
 === Apple Juice ===
 peelFruit: peeling the apple
 addToGrinder: cutting apple into pieces, then adding to grinder
