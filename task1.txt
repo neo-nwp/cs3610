@@ -1,0 +1,6 @@
+Why I chose the Template Method::
+
+The problem states that the juice making process has a fixed sequences of steps (peel, addToGrinder, addCondimentss,grind,pour) that is common for all juices, while some steps (peelFruit, addToGrinder)
+must be between apple and orange. This matches the Template Method because it defines the skeletion of an algorithm in the base clas and let subclasses redefine certain stepswithout changing the overall algorithm structure.
+This fits the Template Method pattern because it defines the skeleton of the algorithm in a base class (the template method makeJuiceFromMe()), and lets subclasses override specific steps without changing the overall sequence. 
+Also, the client (the grinder) can call makeJuiceFromMe() on the base type and does not need to know the concrete juice class.
